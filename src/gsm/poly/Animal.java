@@ -1,11 +1,7 @@
 package gsm.poly;
 
-public class Animal {
-    public void eat() {
-        System.out.println("An animal just ate things.");
-    }
+public abstract class Animal {
+    public abstract void eat();
 
-    public void move() {
-        System.out.println("무언가 움직인다!");
-    }
+    public abstract void move();
 }
